@@ -1,4 +1,4 @@
-:movie_camera: [YouTube]([YouTube](https://www.youtube.com/watch?v=-Y7dOtciOJw))
+:movie_camera: [YouTube](https://www.youtube.com/watch?v=-Y7dOtciOJw)
 
 <hr>
 
