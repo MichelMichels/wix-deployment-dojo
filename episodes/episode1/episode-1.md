@@ -60,6 +60,12 @@ Save this code as `package.wxs` and build an .msi package with following command
 wix build .\package.wxs -o dojo.msi
 ```
 
+Use following command to see errors while installing an msi package:
+
+```cmd
+msiexec /i dojo.msi /l*v install.txt
+```
+
 > :warning: When installing this msi package, nothing gets installed and `msiexec` gives an error because we added nothing to this package.
 
 ### Directory tree
