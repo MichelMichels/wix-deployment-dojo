@@ -27,3 +27,32 @@ nuget sources add -name wixtoolset --source https://nuget.pkg/github.com/wixtool
 ```
 
 > :information_source: Remove a source with `nuget sources remove -name {SOURCE_NAME}`
+
+### MSI Package
+
+The following tree is conceptually the inside structure of an MSI package.
+
+* Package
+  * Directory tree *[Structure of the application]*
+    * Component
+      * File
+  
+  * Feature tree *[Turning on and off certain features, this is mostly 1 feature]*
+    * Component
+
+### Creating our first package
+
+WiX package files are XML files with the `.wxs` extension. Following XML is the minimum requirement for building an msi package.
+
+```xml
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+    <Package Manufacturer="Deployment Dojo" Name="Kata #1" UpgradeCode="9a1e69eb-4fa4-40e7-9827-43eb2139f5f5" Version="0.9">
+    </Package>
+</Wix>
+```
+
+Save this code as `package.wxs` and build an .msi package with following command:
+
+```cmd
+wix build .\package.wxs -o dojo.msi
+```
