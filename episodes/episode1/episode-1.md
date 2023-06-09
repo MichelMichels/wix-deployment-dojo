@@ -60,7 +60,7 @@ Save this code as `package.wxs` and build an .msi package with following command
 wix build .\package.wxs -o dojo.msi
 ```
 
-Use following command to see errors while installing an msi package:
+Use following install command to see errors while installing an msi package:
 
 ```cmd
 msiexec /i dojo.msi /l*v install.txt
@@ -91,7 +91,15 @@ We'll also add following code inside the `<Package>` tags under the directory tr
 </Feature>
 ```
 
-// TODO https://www.youtube.com/watch?v=-Y7dOtciOJw&list=PLDlzbQXIs18slmqmdlS10_de_Cps-QRg6&index=1 42m15
+After adding this feature, we'll build again and this will create an extra `cab1.cab` file next to the other files we already saw from previous steps. This cab-file will contain our `a.txt` file.
+
+> :information_source: A cab file is a compression format which encapsulates other files.
+
+To uninstall an msi package on the command line, use following command.
+
+```cmd
+msiexec /x dojo.msi /l*v uninstall.txt
+``` 
 
 ### Complete file
 

@@ -1,0 +1,1 @@
+msiexec /i dojo.msi /l*v install.txt
