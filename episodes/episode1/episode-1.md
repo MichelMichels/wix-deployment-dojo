@@ -9,7 +9,9 @@
 
 ## Content
 
-### How do I install a development build from GitHub packages?
+### Development builds
+
+> :warning: A development build is not necessary for this guide. Only do this if you want bleeding-edge builds.
 
 GitHub packages needs authentication to fetch packages from their feeds, so we need to create a personal access token (PAT). Follow next steps:
 
