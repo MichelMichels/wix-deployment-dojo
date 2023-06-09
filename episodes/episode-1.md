@@ -21,6 +21,11 @@ GitHub packages needs authentication to fetch packages from their feeds, so we n
 
 With the token, we're ready to add the wixtoolset GitHub package source to nuget with following command:
 
-`nuget sources add -name wixtoolset --source https://nuget.pkg/github.com/wixtoolset/index.json --username {GITHUB_USERNAME} --password {PERSONAL_ACCESS_TOKEN}`
+```cmd
+nuget sources add -name wixtoolset \ 
+--source https://nuget.pkg/github.com/wixtoolset/index.json \ 
+--username {GITHUB_USERNAME} \ 
+--password {PERSONAL_ACCESS_TOKEN}
+```
 
 > :information_source: Remove a source with `nuget sources remove -name {SOURCE_NAME}`
