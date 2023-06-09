@@ -1,3 +1,7 @@
+:movie_camera: [YouTube]([YouTube](https://www.youtube.com/watch?v=-Y7dOtciOJw))
+
+<hr>
+
 # Deployment Dojo - Episode 1
 
 ## Requirements
