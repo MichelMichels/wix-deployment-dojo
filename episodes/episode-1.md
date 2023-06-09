@@ -4,9 +4,10 @@
 
 * Visual Studio 2022
 * WiX v4
-    > `dotnet tool install -g wix`
+    > Latest NuGet version: `dotnet tool install -g wix`
+    > Dev build: `dotnet tool install -g wix --version {VERSION}` (see below how to access the dev builds)
 
-## FAQ
+## Content
 
 ### How do I install a development build from GitHub packages?
 
