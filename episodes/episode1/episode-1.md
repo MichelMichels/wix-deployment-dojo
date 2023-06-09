@@ -42,7 +42,7 @@ The following tree is conceptually the inside structure of an MSI package.
 
 ### Creating our first package
 
-WiX package files are XML files with the `.wxs` extension. Following XML is the minimum requirement for building an msi package.
+WiX package files are XML files with the `.wxs` extension. Following XML is the minimum required for a building an msi package.
 
 ```xml
 <Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
@@ -56,3 +56,5 @@ Save this code as `package.wxs` and build an .msi package with following command
 ```cmd
 wix build .\package.wxs -o dojo.msi
 ```
+
+> :warning: When installing this msi package, nothing gets installed and `msiexec` gives an error because we added nothing to this package.
