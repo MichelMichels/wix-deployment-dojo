@@ -43,9 +43,9 @@ The following tree is conceptually the inside structure of an MSI package.
   * Feature tree *[Turning on and off certain features, this is mostly 1 feature]*
     * Component
 
-### Creating our first package
+### Bare minimum Package.wxs
 
-WiX package files are XML files with the `.wxs` extension. Following XML is the minimum required for a building an msi package.
+WiX package files are XML files with the `.wxs` extension. Following XML is the bare minimum to create an msi package.
 
 ```xml
 <Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
@@ -61,3 +61,32 @@ wix build .\package.wxs -o dojo.msi
 ```
 
 > :warning: When installing this msi package, nothing gets installed and `msiexec` gives an error because we added nothing to this package.
+
+### Directory tree
+
+We'll add the following code inside the `<Package>` tags:
+
+```xml
+<StandardDirectory Id="ProgramFilesFolder">
+    <Directory Id="DojoFolder" Name="~Dojo - Kata #1" />
+</StandardDirectory>
+```
+
+
+### Feature tree
+
+We'll also add following code inside the `<Package>` tags under the directory tree.
+
+```xml
+<Feature Id="Main">
+    <Component Directory="DojoFolder">
+        <File Source="a.txt" />
+    </Component>
+</Feature>
+```
+
+// TODO https://www.youtube.com/watch?v=-Y7dOtciOJw&list=PLDlzbQXIs18slmqmdlS10_de_Cps-QRg6&index=1 42m15
+
+### Complete file
+
+[See Package.wxs](src/package.wxs)
