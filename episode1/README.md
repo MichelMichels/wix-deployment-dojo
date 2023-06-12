@@ -16,7 +16,7 @@
 
 ### Development builds
 
-> :warning: A development build is not necessary for this guide. Only do this if you want bleeding-edge builds.
+:warning: A development build is not necessary for this guide. Only do this if you want bleeding-edge builds.
 
 GitHub packages needs authentication to fetch packages from their feeds, so we need to create a personal access token (PAT). Follow next steps:
 
@@ -33,7 +33,7 @@ With the token, we're ready to add the wixtoolset GitHub package source to nuget
 nuget sources add -name wixtoolset --source https://nuget.pkg/github.com/wixtoolset/index.json --username {GITHUB_USERNAME} --password {PERSONAL_ACCESS_TOKEN}
 ```
 
-> :information_source: Remove a source with `nuget sources remove -name {SOURCE_NAME}`
+:information_source: Remove a source with `nuget sources remove -name {SOURCE_NAME}`
 
 ### MSI Package
 

@@ -1,1 +1,1 @@
-msiexec /i dojo.msi /l*v install.txt
+msiexec /i ep2.msi /l*v install.txt
