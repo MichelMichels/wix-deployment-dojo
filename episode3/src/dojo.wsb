@@ -1,11 +1,11 @@
 <Configuration>
     <MappedFolders>
         <MappedFolder>
-            <HostFolder>%USERPROFILE%\Documents\Projects\wix-deployment-dojo\episode2\src</HostFolder>
+            <HostFolder>C:\dojo\episode2\src</HostFolder>
             <SandboxFolder>C:\dojo</SandboxFolder>
         </MappedFolder>
         <MappedFolder>
-            <HostFolder>%USERPROFILE%\Documents\Projects\wix-deployment-dojo\episode3\src</HostFolder>
+            <HostFolder>C:\dojo\episode3\src</HostFolder>
             <SandboxFolder>C:\dojo\tools</SandboxFolder>
         </MappedFolder>
     </MappedFolders>
