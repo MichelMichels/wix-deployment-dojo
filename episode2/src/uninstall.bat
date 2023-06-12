@@ -1,0 +1,1 @@
+msiexec /x dojo.msi /l*v un.install.txt

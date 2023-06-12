@@ -1,7 +1,8 @@
 # WiX - Deployment Dojo notes
-Notes from the video series 'Deployment Dojo' of WiX
+
+Notes from the [video series 'Deployment Dojo' of WiX](https://www.youtube.com/watch?v=-Y7dOtciOJw&list=PLDlzbQXIs18slmqmdlS10_de_Cps-QRg6).
 
 |Episode|Summary|:movie_camera:|
 |---|---|---|
 |[Episode 1](episode1/README.md)| <ul><li>Installation of WiX v4 SDK (and dev builds)</li><li>Bare minimum working wxs script</li></ul> | [YouTube](https://www.youtube.com/watch?v=-Y7dOtciOJw)|
-|[Episode 2](episode1/README.md)| <ul><li></li></ul> |[Youtube](https://www.youtube.com/watch?v=0ApAkl4HKxw)|
+|[Episode 2](episode1/README.md)| <ul><li></li></ul> |[Youtube](https://www.youtube.com/watch?v=Q5uHgUdqAeY)|
