@@ -1,0 +1,8 @@
+<Configuration>
+    <MappedFolders>
+        <MappedFolder>
+            <HostFolder>C:\dojo\episode4\src</HostFolder>
+            <SandboxFolder>C:\dojo</SandboxFolder>
+        </MappedFolder>
+    </MappedFolders>
+</Configuration>
