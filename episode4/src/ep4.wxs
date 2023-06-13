@@ -1,5 +1,5 @@
 <Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
-    <Package Name="~Ep4" Manufacturer="Deployment Dojo" Version="0.9.1" UpgradeCode="2f6d746e-e3e6-40c7-ba0b-2e955baab95a">
+    <Package Name="~Ep4" Manufacturer="Deployment Dojo" Version="0.9.1.2" UpgradeCode="2f6d746e-e3e6-40c7-ba0b-2e955baab95a">
         <MajorUpgrade DowngradeErrorMessage="A newer version was detected." />
 
         <Feature Id="Main">

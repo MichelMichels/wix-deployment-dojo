@@ -5,4 +5,7 @@
             <SandboxFolder>C:\dojo</SandboxFolder>
         </MappedFolder>
     </MappedFolders>
+    <LogonCommand>
+        <Command>C:\dojo\dojostart.cmd</Command>
+    </LogonCommand>
 </Configuration>
