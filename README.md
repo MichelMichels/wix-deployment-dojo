@@ -8,5 +8,5 @@ Notes from the [video series 'Deployment Dojo' of WiX](https://www.youtube.com/w
 | [Episode 2](ep2/README.md) | <ul><li>Recap of episode 1</li></ul>                                                                  | [Youtube](https://www.youtube.com/watch?v=Q5uHgUdqAeY) |
 | [Episode 3](ep3/README.md) | <ul><li>Setup Windows Sandox</li></ul>                                                                | [Youtube](https://www.youtube.com/watch?v=mn3pA4ABNtQ) |
 | [Episode 4](ep4/README.md) | <ul><li>Upgrading</li></ul>                                                                           | [Youtube](https://www.youtube.com/watch?v=IXc6_i0Pm4E) |
-| [Episode 5](ep5/README.md) | <ul><li><i>More upgrading</i></li></ul>                                                               | [YouTube](https://www.youtube.com/watch?v=s1ZdtkD5lZg) |
-| [Episode 6](ep6/README.md) |                                                                                                       |                                                        |
+| [Episode 5](ep5/README.md) | <ul><li>More upgrading</li></ul>                                                                      | [YouTube](https://www.youtube.com/watch?v=s1ZdtkD5lZg) |
+| [Episode 6](ep6/README.md) | <ul><li><i>todo</i></li></ul>                                                                         | [Youtube](https://www.youtube.com/watch?v=vqiEVfeDjpw) |
