@@ -1,0 +1,7 @@
+<Wix>
+    <Package Manufacturer="Deployment Dojo" Name="~Ep6" Version="1.0.0" UpgradeCode="141a5e74-b4e8-49ba-8472-9cc8810ee1cb">
+        <StandardDirectory Id="ProgramFilesFolder">
+            <Directory Id="INSTALLFOLDER" Name="~Ep6" />
+        </StandardDirectory>
+    </Package>
+</Wix>
