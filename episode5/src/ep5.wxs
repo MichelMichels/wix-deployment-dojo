@@ -1,0 +1,15 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+    <Package Name="~Ep5" Manufacturer="Deployment Dojo" Version="1.1.0.3" UpgradeCode="83e39d0e-eb70-4adb-a933-3d3a9f12871c">
+        <MajorUpgrade DowngradeErrorMessage="A newer version was detected." AllowSameVersionUpgrades="yes" />
+
+        <StandardDirectory Id="ProgramFilesFolder">
+            <Directory Id="InstallFolder" Name="~Ep5" />
+        </StandardDirectory>
+
+        <Feature Id="Main">
+            <Component Directory="InstallFolder">
+                <File Source="ep5.txt" />
+            </Component>
+        </Feature>
+    </Package>
+</Wix>
