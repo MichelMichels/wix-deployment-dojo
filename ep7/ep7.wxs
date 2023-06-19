@@ -1,0 +1,22 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+    <Package Name="~Ep7" Manufacturer="Deployment Dojo" Version="1" UpgradeCode="814a0fc2-e49f-4023-9f53-dd4c0740dbca">
+        <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is installed." />
+
+        <StandardDirectory Id="ProgramFilesFolder">
+            <Directory Id="InstallFolder" Name="~Ep7" />
+        </StandardDirectory>
+
+        <Feature Id="Main">
+            <ComponentGroupRef Id="InstallComponents" />
+        </Feature>
+
+        <ComponentGroup Id="InstallComponents" Directory="InstallFolder">
+            <Component>
+                <File Source="ep7a.txt" />
+            </Component>
+            <Component>
+                <File Source="ep7b.txt" />
+            </Component>
+        </ComponentGroup>
+    </Package>
+</Wix>
