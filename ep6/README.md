@@ -15,3 +15,9 @@ Output for the v1.0.0/ep6.msi file:
 ```cmd
 C:\dojo\ep6\ep6.wxs(3) : warning WIX1076: ICE61: This product should remove only older versions of itself. The Maximum version is not less than the current product. (1.0.0 1.0.0)
 ```
+
+You can skip this warning by using following command:
+
+```cmd
+wix msi validate -sice ICE61 v1.0.0/ep6.msi
+```
