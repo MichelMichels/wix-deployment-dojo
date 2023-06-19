@@ -9,14 +9,5 @@
         <Feature Id="Main">
             <ComponentGroupRef Id="InstallComponents" />
         </Feature>
-
-        <ComponentGroup Id="InstallComponents" Directory="InstallFolder">
-            <Component>
-                <File Source="ep7a.txt" />
-            </Component>
-            <Component>
-                <File Source="ep7b.txt" />
-            </Component>
-        </ComponentGroup>
     </Package>
 </Wix>

@@ -26,3 +26,28 @@ These groups can then be referenced inside a feature, instead of putting all the
     <ComponentGroupRef Id="InstallComponents" />
 </Feature>
 ```
+
+## `Fragment`
+
+With the `Fragment` tag, it's possible to put our wxs code into separate files.
+
+```xml
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+    <Fragment>
+        <ComponentGroup Id="InstallComponents" Directory="InstallFolder">
+            <Component>
+                <File Source="ep7a.txt" />
+            </Component>
+            <Component>
+                <File Source="ep7b.txt" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>
+```
+
+You can build this by using following command:
+
+```cmd
+wix build .\ep7.wxs .\files.wxs -o v1b\ep7.msi
+```
