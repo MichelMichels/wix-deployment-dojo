@@ -21,3 +21,7 @@ You can skip this warning by using following command:
 ```cmd
 wix msi validate -sice ICE61 v1.0.0/ep6.msi
 ```
+
+## .wixpdb 
+
+The `wix msi validate` command uses the .wixpdb file to display the line number where warnings are coming from.
