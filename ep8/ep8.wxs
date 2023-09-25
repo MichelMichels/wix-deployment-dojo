@@ -3,7 +3,7 @@
         <MajorUpgrade DowngradeErrorMessage="A newer version is already installed." />
 
         <Feature Id="Main">
-            <ComponentGroupRef Id="Stuff" />
+            <ComponentGroupRef Id="TextFiles" />
         </Feature>
     </Package>
 </Wix>

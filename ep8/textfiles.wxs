@@ -1,6 +1,6 @@
 <Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
     <Fragment>
-        <ComponentGroup Id="Stuff">
+        <ComponentGroup Id="TextFiles">
             <Component Directory="InstallFolder">
                 <File Source="ep8a.txt" />
             </Component>
