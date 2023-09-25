@@ -1,0 +1,12 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+    <Fragment>
+        <ComponentGroup Id="TextFiles" Directory="InstallFolder">
+            <Component>
+                <File Id="ep8a.txt" Source="ep8a.txt" />
+            </Component>
+            <Component>
+                <File Id="ep8b.txt" Source="ep8b.txt" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

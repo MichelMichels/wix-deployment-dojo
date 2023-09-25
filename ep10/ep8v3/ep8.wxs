@@ -1,0 +1,13 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+    <Package Name="~Ep8" Manufacturer="Deployment Dojo" Language="1033" Version="1.0" UpgradeCode="a8228edd-45bb-4e8e-8915-e0d2cf08972c">
+
+        
+
+        
+        <MajorUpgrade DowngradeErrorMessage="Newer version installed" />
+
+        <Feature Id="Main">
+            <ComponentGroupRef Id="TextFiles" />
+        </Feature>
+    </Package>
+</Wix>
