@@ -1,0 +1,16 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+    <Fragment>
+        <ComponentGroup Id="HelloDojoComponents" Directory="InstallFolder">
+            <Component>
+                <File Source="HelloDojoX.exe" />
+            </Component>
+
+        </ComponentGroup>
+    </Fragment>
+
+    <Fragment>
+        <StandardDirectory Id="ProgramFilesFolder">
+            <Directory Id="InstallFolder" Name="~Ep9" />
+        </StandardDirectory>
+    </Fragment>
+</Wix>

@@ -1,0 +1,5 @@
+<Project Sdk="WixToolset.Sdk/4.0.2">
+    <ItemGroup>
+        <ProjectReference Include="..\HelloDojo\HelloDojo.csproj" />
+    </ItemGroup>
+</Project>

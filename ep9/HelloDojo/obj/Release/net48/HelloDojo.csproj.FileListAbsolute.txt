@@ -1,0 +1,10 @@
+C:\dojo\ep9\HelloDojo\bin\Release\net48\HelloDojo.exe.config
+C:\dojo\ep9\HelloDojo\bin\Release\net48\HelloDojo.exe
+C:\dojo\ep9\HelloDojo\bin\Release\net48\HelloDojo.pdb
+C:\dojo\ep9\HelloDojo\obj\Release\net48\HelloDojo.csproj.AssemblyReference.cache
+C:\dojo\ep9\HelloDojo\obj\Release\net48\HelloDojo.GeneratedMSBuildEditorConfig.editorconfig
+C:\dojo\ep9\HelloDojo\obj\Release\net48\HelloDojo.AssemblyInfoInputs.cache
+C:\dojo\ep9\HelloDojo\obj\Release\net48\HelloDojo.AssemblyInfo.cs
+C:\dojo\ep9\HelloDojo\obj\Release\net48\HelloDojo.csproj.CoreCompileInputs.cache
+C:\dojo\ep9\HelloDojo\obj\Release\net48\HelloDojo.exe
+C:\dojo\ep9\HelloDojo\obj\Release\net48\HelloDojo.pdb
