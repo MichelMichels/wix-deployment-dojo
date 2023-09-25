@@ -17,3 +17,11 @@ This command will convert files in place.
 ```cmd
 wix convert *.wxs
 ```
+
+## Building `wixlib`
+
+* `-bindfiles`: ensures that the text files are included in the library.
+
+```cmd
+wix build *.wxs -bindfiles -o team1.wixlib
+```
