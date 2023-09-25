@@ -1,0 +1,6 @@
+BuiltContentOutput	C:\dojo\ep8\obj\Debug\cab1.cab
+BuiltPdbOutput	C:\dojo\ep8\obj\Debug\ep8.wixpdb
+BuiltTargetOutput	C:\dojo\ep8\obj\Debug\ep8.msi
+Input	ep8a.txt
+Input	ep8b.txt
+Intermediate	C:\dojo\ep8\obj\Debug\cab1.cab

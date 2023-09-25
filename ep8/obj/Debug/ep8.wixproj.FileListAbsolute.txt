@@ -1,0 +1,8 @@
+C:\dojo\ep8\bin\Debug\ep8.msi
+C:\dojo\ep8\bin\Debug\cab1.cab
+C:\dojo\ep8\bin\Debug\ep8.wixpdb
+C:\dojo\ep8\obj\Debug\ep8.wixproj.CoreCompileInputs.cache
+C:\dojo\ep8\obj\Debug\cab1.cab
+C:\dojo\ep8\obj\Debug\ep8.msi
+C:\dojo\ep8\obj\Debug\ep8.wixpdb
+C:\dojo\ep8\obj\Debug\ep8.wixproj.BindTracking-neutral.txt
