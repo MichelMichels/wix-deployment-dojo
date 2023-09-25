@@ -9,3 +9,11 @@
 1. `candle.exe`: This is the compiler that creates a `wixobj` file from a `wxs` file. This is an intermediary file.
 2. `light.exe`: This is the linker that takes the `wixobj` file and turns it into the `msi`
 
+## Conversion from v3 -> v4
+
+You can convert v3 `wxs` files to v4 with following command.
+This command will convert files in place.
+
+```cmd
+wix convert *.wxs
+```
