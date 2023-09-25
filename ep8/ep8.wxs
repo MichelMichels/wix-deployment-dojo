@@ -1,0 +1,9 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+    <Package Name="~Ep8" Manufacturer="Deployment Dojo" Version="1" UpgradeCode="638cc5e9-f196-4fb9-aeab-6edfacae71ee">
+        <MajorUpgrade DowngradeErrorMessage="A newer version is already installed." />
+
+        <Feature Id="Main">
+            <ComponentGroupRef Id="Stuff" />
+        </Feature>
+    </Package>
+</Wix>
