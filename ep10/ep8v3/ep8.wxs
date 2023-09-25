@@ -1,0 +1,14 @@
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Product Id="*" Name="~Ep8" Manufacturer="Deployment Dojo" Language="1033" Version="1.0"
+        UpgradeCode="a8228edd-45bb-4e8e-8915-e0d2cf08972c">
+
+        <Package InstallScope="perMachine" InstallerVersion="500" Compressed="yes" />
+
+        <MediaTemplate />
+        <MajorUpgrade DowngradeErrorMessage="Newer version installed" />
+
+        <Feature Id="Main">
+            <ComponentGroupRef Id="TextFiles" />
+        </Feature>
+    </Product>
+</Wix>
