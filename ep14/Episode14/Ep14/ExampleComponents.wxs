@@ -1,0 +1,19 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+	<Fragment>
+		<Property Id="FOO" Value="456" Secure="true" />
+		
+		 
+		<ComponentGroup Id="ExampleComponents" Directory="INSTALLFOLDER">
+			<Component>
+				<File Source="ConsoleApp1.exe" />
+				<RegistryValue Root="HKLM" Key="SOFTWARE\Dojo" Name="Public" Value="[FOO]" />				
+			</Component>
+			<Component>
+				<File Source="ConsoleApp1.dll" />
+			</Component>
+			<Component>
+				<File Source="ConsoleApp1.runtimeconfig.json" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+</Wix>
