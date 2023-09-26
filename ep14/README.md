@@ -26,3 +26,8 @@ msiexec /i Ep14.msi FOO=abc
 
 :speech_balloon: If you don't define a default value for your property 
 and don't provide it on the command line, the value will be blank.
+
+:warning: The command line is again case-insensitive. This means that `foo=xyz` will also work.
+
+:warning: The property inside the source must by all-caps otherwise it can't be set on 
+the command line.
