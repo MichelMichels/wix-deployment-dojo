@@ -2,7 +2,7 @@
   <Fragment>
     <ComponentGroup Id="ExampleComponents" Directory="INSTALLFOLDER">
       <Component>
-		  <RegistryValue Root="HKLM" Key="Software\~Ep12" Name="Example" Value="Episode 12 - $(Version)" />
+		  <RegistryValue Root="HKLM" Key="Software\~Ep12\$(Version)" Name="Example" Value="Episode 12 - $(Version)" />
       </Component>
     </ComponentGroup>
   </Fragment>
