@@ -4,5 +4,3 @@
 
 # Deployment Dojo - Episode 14: Last Minute Changes. This Time: Properties in WiX v4
 
-
-
