@@ -31,3 +31,11 @@ and don't provide it on the command line, the value will be blank.
 
 :warning: The property inside the source must by all-caps otherwise it can't be set on 
 the command line.
+
+## Secure
+
+This is an attribute on the property. It only matters when crossing a UI boundary.
+
+```xml
+<Property Id="FOO" Value="123" Secure="true" />
+```

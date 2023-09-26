@@ -17,6 +17,6 @@ Notes from the [video series 'Deployment Dojo' of WiX](https://www.youtube.com/w
 | [Episode 11](ep11/README.md) | <ul><li>HeatWave in Visual Studio</li><li>Upgrading through VS</li></ul>                              | [Youtube](https://www.youtube.com/watch?v=PXqCZwNPMKE) |
 | [Episode 12](ep12/README.md) | <ul><li>Preprocessor variables</li></ul>                                                              | [Youtube](https://www.youtube.com/watch?v=g1PBKhq2oe8) |
 | [Episode 13](ep13/README.md) | <ul><li>Runtime variables</li><li>Directories</li></ul>                                               | [Youtube](https://www.youtube.com/watch?v=y14Xd6VJJAw) |
-| [Episode 14](ep14/README.md) | <ul><li>WIP</li></ul>                                                                                 | [Youtube](https://www.youtube.com/watch?v=cLIg7nxx1ko) |
+| [Episode 14](ep14/README.md) | <ul><li>Properties</li><li>Secure</li></ul>                                                           | [Youtube](https://www.youtube.com/watch?v=cLIg7nxx1ko) |
 
 
