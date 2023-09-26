@@ -10,11 +10,9 @@
 <RegistryValue Root="HKLM" Key="Software\~Ep12" Name="Example" Value="Episode 12" />
 ```
 
-## Variables
+## Preprocessor variables
 
 _Open properties on the Wix project and look for the 'Build' tab._
-
-### Preprocessor variables
 
 Change source code before the build. Earliest possible.
 
@@ -56,3 +54,12 @@ Something weird happens now, that it will compile for ARM64. To negate this, add
 You can then use `$(Version)` everywhere in your `.wxs` files.
 
 :speech_balloon: To write a literal dollar sign (\$), you can escape it by type double dollar signs (\$\$).
+
+
+### Command line
+
+You can also use the command line:
+
+```cmd
+wix build *.wxs *.wxl -d Version=12.0.8 -o out\ep12.msi
+```
