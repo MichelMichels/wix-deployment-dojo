@@ -13,4 +13,6 @@ Notes from the [video series 'Deployment Dojo' of WiX](https://www.youtube.com/w
 | [Episode 7](ep7/README.md)   | <ul><li>ComponentGroup</li><li>Fragment</li></ul>                                                     | [Youtube](https://www.youtube.com/watch?v=ga9M4m6MtSU) |
 | [Episode 8](ep8/README.md)   | <ul><li>Project files for MSBuild (`wixproj`)</li></ul>                                               | [Youtube](https://www.youtube.com/watch?v=_DCFgd9u8EI) |
 | [Episode 9](ep9/README.md)   | <ul><li>First install a real program</li><li>Automating project builds with msbuild</li></ul>         | [Youtube](https://www.youtube.com/watch?v=s24zby3MN30) |
-| [Episode 10](ep10/README.md) | <ul><li>WIP</li></ul>                                                                                 | [Youtube](https://www.youtube.com/watch?v=KyFAhr5u-TM) |
+| [Episode 10](ep10/README.md) | <ul><li>Converting v3 to v4</li><li>`wixlib`</li></ul>                                                | [Youtube](https://www.youtube.com/watch?v=KyFAhr5u-TM) |
+| [Episode 11](ep11/README.md) | <ul><li>HeatWave in Visual Studio</li><li>Upgrading through VS</li></ul>                              | [Youtube](https://www.youtube.com/watch?v=PXqCZwNPMKE) |
+
