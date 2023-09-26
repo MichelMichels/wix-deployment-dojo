@@ -1,11 +1,13 @@
 <Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
 	<Fragment>
-		<Property Id="Foo" Value="123" />
+		<Property Id="FOO" Value="456" />
+		<Property Id="Foo" Value="321" />
 		 
 		<ComponentGroup Id="ExampleComponents" Directory="INSTALLFOLDER">
 			<Component>
 				<File Source="ConsoleApp1.exe" />
-				<RegistryValue Root="HKLM" Key="SOFTWARE\Dojo" Name="Configurable" Value="[Foo]" />
+				<RegistryValue Root="HKLM" Key="SOFTWARE\Dojo" Name="Public" Value="[FOO]" />
+				<RegistryValue Root="HKLM" Key="SOFTWARE\Dojo" Name="Private" Value="[Foo]" />
 			</Component>
 			<Component>
 				<File Source="ConsoleApp1.dll" />
