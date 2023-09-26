@@ -1,0 +1,1 @@
+C:\Install\dotnet\bin\%dotnetRuntimeInstallerExe% /install /quiet /norestart
