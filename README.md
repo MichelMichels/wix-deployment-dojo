@@ -16,5 +16,5 @@ Notes from the [video series 'Deployment Dojo' of WiX](https://www.youtube.com/w
 | [Episode 10](ep10/README.md) | <ul><li>Converting v3 to v4</li><li>`wixlib`</li></ul>                                                | [Youtube](https://www.youtube.com/watch?v=KyFAhr5u-TM) |
 | [Episode 11](ep11/README.md) | <ul><li>HeatWave in Visual Studio</li><li>Upgrading through VS</li></ul>                              | [Youtube](https://www.youtube.com/watch?v=PXqCZwNPMKE) |
 | [Episode 12](ep12/README.md) | <ul><li>Preprocessor variables</li></ul>                                                              | [Youtube](https://www.youtube.com/watch?v=g1PBKhq2oe8) |
-| [Episode 13](ep13/README.md) | <ul><li>WIP</li></ul>                                                                                 | [Youtube](https://www.youtube.com/watch?v=y14Xd6VJJAw) |
+| [Episode 13](ep13/README.md) | <ul><li>Runtime variables</li><li>Directories</li></ul>                                               | [Youtube](https://www.youtube.com/watch?v=y14Xd6VJJAw) |
 
