@@ -1,0 +1,9 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Name="Ep16" Manufacturer="~Dojo" Version="1.0.0.0" UpgradeCode="cb0474d1-8424-46b6-9710-d78b0e2ba8a8">
+    <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+    <Feature Id="Main">
+      <ComponentGroupRef Id="ConsoleApp1Components" />
+    </Feature>
+  </Package>
+</Wix>
