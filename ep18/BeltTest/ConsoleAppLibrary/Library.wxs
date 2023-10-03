@@ -1,0 +1,20 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+	<Fragment>
+		<ComponentGroup Id="Stuff" Directory="INSTALLFOLDER">
+			<Component>
+				<File Source="ConsoleApp1.exe" />
+			</Component>
+			<Component>
+				<File Source="ConsoleApp1.dll" />
+			</Component>
+			<Component>
+				<File Source="ConsoleApp1.runtimeconfig.json" />
+			</Component>
+			<Component>
+				<!-- TODO: Set the values for these registry keys -->
+				<RegistryValue Root="HKLM" Key="SOFTWARE\BeltTest" Name="Edition" Value="" />
+				<RegistryValue Root="HKLM" Key="SOFTWARE\BeltTest" Name="Customer" Value="" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+</Wix>
