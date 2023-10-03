@@ -1,0 +1,1 @@
+msbuild -nologo -m  -v:m BeltTest\BeltTest.sln -p:BuildVersion=1.0.0

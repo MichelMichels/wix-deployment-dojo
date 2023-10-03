@@ -1,0 +1,10 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+	<Package Name="CommunityPackage" Manufacturer="!(loc.Manufacturer)" Version="$(Version)" UpgradeCode="dd9974f8-33d0-4f88-9cde-dc6e48d74e78">
+		<MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+		<WixVariable Id="Edition" Value="Community" />
+		<Feature Id="Main">
+			<ComponentGroupRef Id="Stuff" />
+		</Feature>
+	</Package>
+</Wix>
