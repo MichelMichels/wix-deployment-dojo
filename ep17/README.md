@@ -4,3 +4,13 @@
 
 # Deployment Dojo - Episode 17: The Latest WiX Build Variables: Bind Variables
 
+## Recap
+
+| Type         | Description                               |
+| ------------ | ----------------------------------------- |
+| Preprocessor | Change stuff while building               |
+| Localization | Change languages, creates different msi's |
+
+
+## Bind variables
+
