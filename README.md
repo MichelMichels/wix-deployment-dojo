@@ -20,3 +20,4 @@ Notes from the [video series 'Deployment Dojo' of WiX](https://www.youtube.com/w
 | [Episode 14](ep14/README.md) | <ul><li>Properties</li><li>Secure</li></ul>                                                           | [Youtube](https://www.youtube.com/watch?v=cLIg7nxx1ko) |
 | [Episode 15](ep15/README.md) | <ul><li>Localization (`.wxl` files)</li></ul>                                                         | [Youtube](https://www.youtube.com/watch?v=sLk0IRXUiA4) |
 | [Episode 16](ep16/README.md) | <ul><li>Libraries</li></ul>                                                                           | [Youtube](https://www.youtube.com/watch?v=HUS7gRmL8lk) |
+| [Episode 17](ep17/README.md) | <ul><li>TODO</li></ul>                                                                                | [Youtube](https://www.youtube.com/watch?v=W0B5ZyZVT4A) |
