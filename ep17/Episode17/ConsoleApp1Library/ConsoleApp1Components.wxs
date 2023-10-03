@@ -11,7 +11,7 @@
 			  <File Source="ConsoleApp1.runtimeconfig.json" />
 		  </Component>
 		  <Component>
-			  <RegistryValue Root="HKLM" Key="SOFTWARE\Dojo" Name="Type" Value="!(wix.DojoType)" />
+			  <RegistryValue Root="HKLM" Key="SOFTWARE\Dojo" Name="Type" Value="!(wix.DojoType=Unknown)" />
 		  </Component>
 	  </ComponentGroup>	  
   </Fragment>

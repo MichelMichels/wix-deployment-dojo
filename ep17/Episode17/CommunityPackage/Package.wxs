@@ -1,9 +1,7 @@
 ﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
 	<Package Name="~Community Package" Manufacturer="~Dojo" Version="1.0.0.0" UpgradeCode="14dd7668-fc89-4336-b83d-5df5f3fe5f53">
 		<MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
-
-		<WixVariable Id="DojoType" Value="Community" />
-		
+	
 		<Feature Id="Main">
 			<ComponentGroupRef Id="ConsoleApp1Components" />
 		</Feature>

@@ -24,8 +24,22 @@ Using properties inside `.wixlib`.
 
 ## Wix variable
 
+> :speech_balloon: These variables are set late at build time.
+
 We use Wix variables to generate build time errors when no value is provided.
 
 ```xml
 <WixVariable Id="DojoType" Value="Community" />
+```
+
+Using a WiX variable:
+
+```xml
+!(wix.DojoType)
+```
+
+Default value for variable:
+
+```xml 
+!(wix.DojoType=Unknown)
 ```
