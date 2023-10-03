@@ -21,3 +21,11 @@ Using properties inside `.wixlib`.
     <RegistryValue Root="HKLM" Key="SOFTWARE\Dojo" Name="Type" Value="[DojoType]" />
 </Component>
 ```
+
+## Wix variable
+
+We use Wix variables to generate build time errors when no value is provided.
+
+```xml
+<WixVariable Id="DojoType" Value="Community" />
+```
