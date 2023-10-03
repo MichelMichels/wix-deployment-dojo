@@ -14,3 +14,10 @@
 
 ## Bind variables
 
+Using properties inside `.wixlib`.
+
+```xml
+<Component>
+    <RegistryValue Root="HKLM" Key="SOFTWARE\Dojo" Name="Type" Value="[DojoType]" />
+</Component>
+```
