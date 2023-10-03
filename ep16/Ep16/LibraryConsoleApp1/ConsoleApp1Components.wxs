@@ -1,0 +1,15 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+	<Fragment>
+		<ComponentGroup Id="ConsoleApp1Components" Directory="INSTALLFOLDER">
+			<Component>
+				<File Source="ConsoleApp1.exe" />
+			</Component>
+			<Component>
+				<File Source="ConsoleApp1.dll" />
+			</Component>
+			<Component>
+				<File Source="ConsoleApp1.runtimeconfig.json" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+</Wix>

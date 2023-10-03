@@ -3,3 +3,6 @@
 <hr/>
 
 # Deployment Dojo - Episode 16: Let us revisit libraries in WiX v4. Our first introduction was too short.
+
+## Libraries
+
