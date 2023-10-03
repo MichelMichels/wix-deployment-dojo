@@ -1,0 +1,15 @@
+<Configuration>
+    <MappedFolders>
+        <MappedFolder>
+            <HostFolder>C:\dojo\ep15</HostFolder>
+            <SandboxFolder>C:\dojo</SandboxFolder>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>C:\dojo\scripts</HostFolder>
+            <SandboxFolder>C:\Install</SandboxFolder>
+        </MappedFolder>
+    </MappedFolders>
+    <LogonCommand>
+        <Command>C:\dojo\dojostart.cmd</Command>
+    </LogonCommand>
+</Configuration>

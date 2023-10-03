@@ -1,0 +1,15 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Fragment>
+    <ComponentGroup Id="ExampleComponents" Directory="INSTALLFOLDER">
+      <Component>
+        <File Source="Ep15Program.exe" />
+      </Component>
+		<Component>
+			<File Source="Ep15Program.dll" />
+		</Component>
+		<Component>
+			<File Source="Ep15Program.runtimeconfig.json" />
+		</Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>
